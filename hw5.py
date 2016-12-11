@@ -353,7 +353,7 @@ def printOptions():
 
 # Get user option input
 def getOption():
-	option = input("Enter 1, 2, or 3 (-1 to quit): ")
+	option = input("Enter 1 or 2 (-1 to quit): ")
 	while (option != '1') and (option != '2') and (option != '-1'):
 		option = input("Please enter only 1 or 2 (-1 to quit): ")
 	return option
