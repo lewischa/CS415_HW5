@@ -334,7 +334,8 @@ def performTests(P_values,Lengths,Set_bits):
                 binS = makeBinaryString(L,P)
                 C = compress(binS,S)
                 D = uncompress(C)
-                comp = (len(binS)/len(C))
+                # comp = (len(binS)/len(C))
+                comp = (len(C)/len(D))
 
                 print("{:13d}%   |  {:9f}  ".format(P,comp))
 
